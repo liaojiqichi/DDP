@@ -1,40 +1,37 @@
+from datasets import load_dataset
+from transformers import AutoTokenizer
+import numpy as np
+import os
+from datasets import concatenate_datasets
+import argparse
+from transformers
+from datasets import load_from_disk
 import torch
-import torch.distributed as dist
-import torch.nn as nn
-import torch.optim as optim
+import evaluate
 
-from torch.nn.parallel import DistributedDataParallel as DDP
+from transformers import AutoTokenizer, TrainingArguments, Trainer, AutoModelForCausalLM, IntervalStrategy
 
-class ToyModel(nn.Module):
-    def __init__(self):
-        super(ToyModel, self).__init__()
-        self.net1 = nn.Linear(10, 10)
-        self.relu = nn.ReLU()
-        self.net2 = nn.Linear(10, 5)
+output_dir='./output'
 
-    def forward(self, x):
-        return self.net2(self.relu(self.net1(x)))
+torch.manual_seed(42)
+
+dataset = load_dataset("BookCorpus")
+
+tokenizer = AutoTokenizer.from_pretrained("facebook/opt-125m")
+training_args = TrainingArguments(output_dir='./results', num_train_epochs=4.3, logging_steps=100, save_strategy=IntervalStrategy.NO,
+                                  per_device_train_batch_size=15, per_device_eval_batch_size=15, warmup_steps=100,
+                                  weight_decay=0.01, logging_dir='./logs', fp16=True, deepspeed='./2')
+model = AutoModelForCausalLM.from_pretrained("facebook/opt-125m")
+
+train_size = int(0.9 * len(dataset))
+train_dataset, val_dataset = random_split(dataset, [train_size, len(dataset) - train_size])
+
+Trainer(model=model, args=training_args, train_dataset=train_dataset,
+        eval_dataset=val_dataset, data_collator=lambda data: {'input_ids': torch.stack([f[0] for f in data]),
+                                                              'attention_mask': torch.stack([f[1] for f in data]),
+                                                              'labels': torch.stack([f[0] for f in data])}).train()
+tokenizer.save_pretrained(output_dir)
+trainer.create_model_card()
 
 
-def demo_basic():
-    dist.init_process_group("nccl")
-    rank = dist.get_rank()
-    print(f"Start running basic DDP example on rank {rank}.")
 
-    # create model and move it to GPU with id rank
-    device_id = rank % torch.cuda.device_count()
-    model = ToyModel().to(device_id)
-    ddp_model = DDP(model, device_ids=[device_id])
-
-    loss_fn = nn.MSELoss()
-    optimizer = optim.SGD(ddp_model.parameters(), lr=0.001)
-
-    optimizer.zero_grad()
-    outputs = ddp_model(torch.randn(20, 10))
-    labels = torch.randn(20, 5).to(device_id)
-    loss_fn(outputs, labels).backward()
-    optimizer.step()
-    dist.destroy_process_group()
-
-if __name__ == "__main__":
-    demo_basic()
