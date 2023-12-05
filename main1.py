@@ -4,7 +4,6 @@ import numpy as np
 import os
 from datasets import concatenate_datasets
 import argparse
-from transformers
 from datasets import load_from_disk
 import torch
 import evaluate
@@ -19,7 +18,7 @@ dataset = load_dataset("bookcorpus")
 tokenizer = AutoTokenizer.from_pretrained("facebook/opt-125m")
 
 def tok(sample):
-  return tokenizer(sample["text"], truncation=True)
+  return tokenizer(sample["text"])
 
 tok_data = dataset.map(tok, batched=True)
 
@@ -30,7 +29,7 @@ data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
 training_args = TrainingArguments(output_dir='./results', num_train_epochs=4.3, logging_steps=100, save_strategy=IntervalStrategy.NO,
                                   per_device_train_batch_size=15, per_device_eval_batch_size=15, warmup_steps=100,
-                                  weight_decay=0.01, logging_dir='./logs', fp16=True, deepspeed='./ds_config_gpt_j.json')
+                                  weight_decay=0.01, logging_dir='./logs', fp16=True, deepspeed='./2.json')
 
 model = AutoModelForCausalLM.from_pretrained("facebook/opt-125m")
 
