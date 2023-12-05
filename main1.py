@@ -14,17 +14,17 @@ from transformers import AutoTokenizer, TrainingArguments, Trainer, AutoModelFor
 
 torch.manual_seed(42)
 
-dataset = load_dataset("BookCorpus")
-
-train_size = int(0.9 * len(dataset))
-
-train_dataset, val_dataset = random_split(dataset, [train_size, len(dataset) - train_size])
+dataset = load_dataset("bookcorpus")
 
 tokenizer = AutoTokenizer.from_pretrained("facebook/opt-125m")
 
-train = tokenizer(train_dataset)
+def tok(sample):
+  return tokenizer(sample["text"], truncation=True)
 
-val = tokenizer(train_dataset)
+tok_data = dataset.map(tok, batched=True)
+
+train = tok_data['train'].shuffle(seed=42).select(range(1000)
+val = tok_data['train'].shuffle(seed=42).select(range(1000)
 
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
