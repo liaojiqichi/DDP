@@ -4,7 +4,7 @@ import random
 import subprocess
 import time
 import requests
-
+import json
 def run_nvprof(interval, duration, output_file):
     # Command to run nvprof and collect SM data at the specified interval
     nvprof_command = f"nvprof --metrics sm_efficiency,achieved_occupancy --print-summary --csv --interval={interval} --log-file={output_file}"
@@ -43,10 +43,10 @@ def main():
 
         prompts = ' '.join(part1 + part2)
 
-        url = "http://localhost:8000/generate"
+        url = "http://0.0.0.0:8000/generate"
         data = {"prompt": prompts}  # Corrected data format
 
-        res = requests.post(url, json=data)  # Use json parameter for sending JSON data
+        res = requests.post(url, json=json.dumps(data))  # Use json parameter for sending JSON data
 
         print(res.text)
 
