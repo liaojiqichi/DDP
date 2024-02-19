@@ -1,11 +1,9 @@
 from vllm import LLM, SamplingParams
 from datasets import load_dataset
 import random
-import time
-import requests
-
 import subprocess
 import time
+import requests
 
 def run_nvprof(interval, duration, output_file):
     # Command to run nvprof and collect SM data at the specified interval
@@ -14,7 +12,7 @@ def run_nvprof(interval, duration, output_file):
     # Start nvprof in a separate process
     nvprof_process = subprocess.Popen(nvprof_command, shell=True)
 
-    # Sleep for the specified duration (e.g., 10 seconds)
+    # Sleep for the specified duration
     time.sleep(duration)
 
     # Terminate nvprof process after the specified duration
@@ -23,69 +21,37 @@ def run_nvprof(interval, duration, output_file):
 def main():
     # Set parameters
     interval = 2  # Interval in seconds
-    duration = 100000  # Duration in seconds
+    duration = 100  # Duration in seconds (adjust as needed)
     output_file = "nvprof_output.csv"
 
     # Start nvprof in a separate process
     run_nvprof(interval, duration, output_file)
-  
 
-dataset = load_dataset("nateraw/parti-prompts")
+    dataset1 = load_dataset("nateraw/parti-prompts")
+    dataset2 = load_dataset("succinctly/midjourney-prompts")
 
-dataset2 = load_dataset("succinctly/midjourney-prompts")
+    while duration > 0:
+        random_choose1 = random.randint(1, 1632)
+        sentence1 = dataset1["train"]["Prompt"][random_choose1].split()
+        len1 = random.randint(0, len(sentence1))
+        part1 = random.choices(sentence1, k=len1)
 
-#llm=LLM(model="facebook/opt-125m")
+        random_choose2 = random.randint(1, 12320)
+        sentence2 = dataset2["test"]["text"][random_choose2].split()
+        len2 = random.randint(0, len(sentence2))
+        part2 = random.choices(sentence2, k=len2)
 
-#print(dataset)
-while True:
+        prompts = ' '.join(part1 + part2)
 
-    random_choose1=random.randint(1,1632)
+        url = "http://localhost:8000/generate"
+        data = {"prompt": prompts}  # Corrected data format
 
-    sentence1=dataset["train"]["Prompt"][random_choose1].split()
+        res = requests.post(url, json=data)  # Use json parameter for sending JSON data
 
-    length_1=len(dataset["train"]["Prompt"][random_choose1])
+        print(res.text)
 
-#print(sentence1)
-
-#print(type(dataset["train"]["Prompt"][random_choose1]))
-
-#print(length_1)
-
-#print(len(sentence1))
-
-    len1=random.randint(0,len(sentence1))
-
-    part1=random.choices(sentence1,k=len1)
-
-#print(dataset2)
-
-    random_choose2=random.randint(1,12320)
-
-    sentence2=dataset2["test"]["text"][random_choose2].split()
-
-    length_2=len(dataset2["test"]["text"][random_choose2])
-
-    len2=random.randint(0,len(sentence2))
-
-    part2=random.choices(sentence2,k=len2)
-
-#print(part2)
-
-#print(sentence2)
-
-    prompts=' '.join(part1+part2)
-
-    url="http://localhost:8000/generate"
-	
-    da="{
-	"prompt":prompt	
-	}"    
-
-    res = requests.post(url,data=da)
-
-    print(res.text)    
-
-    time.sleep(1)
+        time.sleep(1)
+        duration -= 1
 
 if __name__ == "__main__":
     main()
