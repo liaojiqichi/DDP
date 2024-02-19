@@ -20,7 +20,7 @@ def run_nvprof(interval, duration, output_file):
 
 def main():
     # Set parameters
-    interval = 2  # Interval in seconds
+    interval 2  # Interval in seconds
     duration = 100  # Duration in seconds (adjust as needed)
     output_file = "nvprof_output.csv"
 
