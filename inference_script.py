@@ -5,28 +5,21 @@ import subprocess
 import time
 import requests
 import json
-def run_nvprof(interval, duration, output_file):
-    # Command to run nvprof and collect SM data at the specified interval
-    nvprof_command = f"nvprof --metrics sm_efficiency,achieved_occupancy --print-summary --csv --interval={interval} --log-file={output_file}"
+def run_nvprof(interval, duration, output_file, command):
+    # Start nvprof in a separate process with I/O redirection
+    nvprof_command = f"nvprof --metrics sm_efficiency,achieved_occupancy --print-summary --csv -o {output_file} {command}"
 
     # Start nvprof in a separate process
     nvprof_process = subprocess.Popen(nvprof_command, shell=True)
 
-    # Sleep for the specified duration
-    time.sleep(duration)
+    for _ in range(duration // interval):
+        time.sleep(interval)
 
     # Terminate nvprof process after the specified duration
     nvprof_process.terminate()
 
 def main():
-    # Set parameters
-    interval 2  # Interval in seconds
-    duration = 100  # Duration in seconds (adjust as needed)
-    output_file = "nvprof_output.csv"
-
-    # Start nvprof in a separate process
-    run_nvprof(interval, duration, output_file)
-
+    
     dataset1 = load_dataset("nateraw/parti-prompts")
     dataset2 = load_dataset("succinctly/midjourney-prompts")
 
@@ -54,4 +47,12 @@ def main():
         duration -= 1
 
 if __name__ == "__main__":
-    main()
+    interval = 2  # Interval in seconds
+    duration = 100  # Duration in seconds
+    output_file = "nvprof_output.csv"
+
+    # Specify the command to run your Python script
+    command_to_run = "inference_script.py"
+
+    # Start nvprof in a separate process
+    run_nvprof(interval, duration, output_file, command_to_run)
