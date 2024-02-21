@@ -3,6 +3,7 @@ from datasets import load_dataset
 import random
 import time
 import requests
+import json
 
 dataset = load_dataset("nateraw/parti-prompts")
 
@@ -26,7 +27,6 @@ while True:
 #print(length_1)
 
 #print(len(sentence1))
-
     len1=random.randint(0,len(sentence1))
 
     part1=random.choices(sentence1,k=len1)
@@ -49,14 +49,13 @@ while True:
 
     prompts=' '.join(part1+part2)
 
-    url="http://localhost:8000/generate"
-	
-    da="{
-	"prompt":prompt	
-	}"    
+    url="http://0.0.0.0:8000/generate"
 
-    res = requests.post(url,data=da)
+    da={
+        "prompt":prompts
+        }
+    res = requests.post(url,data=json.dumps(da))
 
-    print(res.text)    
+#    print(res.text)
 
     time.sleep(1)
