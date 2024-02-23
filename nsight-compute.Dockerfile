@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.0-base
+FROM nvidia/cuda:12.2-base
 
 # Install basic dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
