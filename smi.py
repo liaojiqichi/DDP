@@ -15,7 +15,7 @@ def run_nvidia_smi(interval, duration, output_file):
 
                 # Execute your inference script (shell.py) here
                 # For simplicity, let's assume shell.py is just sleeping for 1 second
-                subprocess.run(['python', 'shell.py'])
+                subprocess.run(['python3', 'shell.py'])
 
                 # Sleep for the specified interval
                 time.sleep(interval)
