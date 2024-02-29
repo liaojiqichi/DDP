@@ -11,8 +11,12 @@ dataset2 = load_dataset("succinctly/midjourney-prompts")
 
 #llm=LLM(model="facebook/opt-125m")
 
+i=0
+
 #print(dataset)
-while True:
+while i<100:
+
+    i=i+1
 
     random_choose1=random.randint(1,1632)
 
@@ -56,6 +60,6 @@ while True:
         }
     res = requests.post(url,data=json.dumps(da))
 
-#    print(res.text)
+print(res.text)
 
     time.sleep(1)
