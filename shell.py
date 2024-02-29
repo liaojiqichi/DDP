@@ -60,6 +60,6 @@ while i<100:
         }
     res = requests.post(url,data=json.dumps(da))
 
-print(res.text)
+    print(res.text)
 
     time.sleep(1)
