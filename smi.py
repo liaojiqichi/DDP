@@ -7,11 +7,8 @@ def run_nvidia_smi(interval, duration, output_file):
         with open(output_file, 'w') as f:
             for _ in range(duration // interval):
                 # Run nvidia-smi command and capture the output
-                result = subprocess.run(['nvidia-smi', '--query-gpu=timestamp,sm', '--format=csv,noheader,nounits'],
-                                        stdout=subprocess.PIPE, text=True)
-
-                # Write the result to the output file
-                f.write(result.stdout)
+                subprocess.run(['nvidia-smi', '--query-gpu=utilization.gpu,utilization.memory',
+                                '--format=csv,noheader,nounits'], stdout=f, text=True)
 
                 # Execute your inference script (shell.py) here
                 # For simplicity, let's assume shell.py is just sleeping for 1 second
@@ -19,6 +16,7 @@ def run_nvidia_smi(interval, duration, output_file):
 
                 # Sleep for the specified interval
                 time.sleep(interval)
+        print("Data collection finished. Check the output file:", output_file)
 
     except KeyboardInterrupt:
         print("Keyboard interrupt detected. Stopping the data collection.")
