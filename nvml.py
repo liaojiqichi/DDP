@@ -28,7 +28,7 @@ def collect_and_print_gpu_metrics(interval, duration, command_to_run):
 if __name__ == "__main__":
     interval = 2  # Interval in seconds
     duration = 60  # Duration in seconds
-    command_to_run = "python shell.py"  # Replace with the actual command to run your inference script
+    command_to_run = "python3 shell.py"  # Replace with the actual command to run your inference script
 
     # Start collecting GPU metrics and print them during the inference process
     collect_and_print_gpu_metrics(interval, duration, command_to_run)
