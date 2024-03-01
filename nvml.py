@@ -15,9 +15,11 @@ def collect_and_print_gpu_metrics(interval, duration, command_to_run):
             handle = pynvml.nvmlDeviceGetHandleByIndex(0)  # Assuming one GPU, change index if needed
 
             utilization = pynvml.nvmlDeviceGetUtilizationRates(handle)
-            occupancy_info = pynvml.nvmlDeviceGetComputeRunningProcesses(handle)
+            sm_info = pynvml.nvmlDeviceGetComputeRunningProcesses(handle)
 
-            print(f"{current_time:.2f}\t{utilization.gpu}\t\t{occupancy_info.current}")
+            sm_occupancy = sum([process.active for process in sm_info]) if sm_info else 0
+
+            print(f"{current_time:.2f}\t{utilization.gpu}\t\t{sm_occupancy}")
 
             time.sleep(interval)
             current_time = time.time()
