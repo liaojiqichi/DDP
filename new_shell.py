@@ -49,23 +49,22 @@ while True:
 
     prompts=' '.join(part1+part2)
 
+    headers = {"Content-Type": "application/json"}
+
     url="http://0.0.0.0:8000/v1/chat/completions"
 
-    da={
-	"model":"meta-llama/Llama-2-7b-chat-hf",
-	"messages":[
-			{
-				"role":"system", "content":prompts
-			}
-			{
-				"role":"user","content":prompts
-			}
-		],
-        "temperature":0
+    da = {
+            "model": "meta-llama/Llama-2-7b-chat-hf",
+            "messages": [
+                    {"role": "system", "content": prompts},
+                    {"role": "user", "content": prompts}
+                ],
+            "temperature": 0
         }
-    res = requests.post(url,data=json.dumps(da))
+
+
+    res = requests.post(url, headers=headers, data=json.dumps(da))
 
     print(res.text)
 
-    time.sleep(1)
-~                   
+    time.sleep(1)                   
