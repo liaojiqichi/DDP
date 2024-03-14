@@ -8,7 +8,7 @@ def run_nvidia_smi(interval, duration, script_name):
 
         for _ in range(duration // interval):
             # Run nvidia-smi and print the SM information to the command line
-            result = subprocess.run(['nvidia-smi', '--query-gpu=utilization.gpu,utilization.memory,sm',
+            result = subprocess.run(['nvidia-smi', '--query-gpu=utilization.gpu,utilization.memory,clocks.sm,clocks.max.sm,timestamp',
                                      '--format=csv,noheader,nounits'], capture_output=True, text=True)
 
             # Print the collected SM information
