@@ -11,6 +11,16 @@ def run_nvidia_smi():
     sm_utilization = float(gpu_utilization)*int(sm_clock)/int(max_sm_clock)
     return sm_utilization
 
+def extract_values(data):
+    gpu_used = none
+    lines = data.split('\n')
+    for i in range(len(lines)):
+        line = lines[i]
+        if line.startswith('Receive'):
+            if i + 4 < len(lines):
+                gpu_used = (int(lines[i + 3].split()[0].split(':')[1].strip()))
+    return gpu_used
+
 def training(model):
     sm_utilization = None 
     try:
@@ -20,7 +30,11 @@ def training(model):
         while time.time() - start_time < 10:
             if script_process.poll() is not None:
                 break
+                
         # read other file for kv blovks, batch size and convolutional layer
+        with open("data.txt", "r") as file:
+            data = file.read()
+            kv_blocks = extract_values(data)
         
         sm_utilization = run_nvidia_smi()
         script_process.terminate()
