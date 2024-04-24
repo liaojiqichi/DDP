@@ -23,6 +23,9 @@ def training(model):
         # read other file for kv blovks, batch size and convolutional layer
         
         sm_utilization = run_nvidia_smi()
+        script_process.terminate()
+        script_process.wait()
+        
     except KeyboardInterrupt:
         print("Keyboard interrupt detected. Stopping the data collection.")
         script_process.terminate()
@@ -30,7 +33,7 @@ def training(model):
     return sm_utilization
   
 if __name__ == "__main__":
-    mdoel = vgg19
+    mmodel = 'vgg19'
     sm_origin = run_nvidia_smi()
     print(sm_origin)
     sm_new = training(model)
