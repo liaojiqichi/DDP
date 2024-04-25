@@ -1,5 +1,6 @@
 import subprocess
 import time
+import re
 
 def run_nvidia_smi():
     result = subprocess.run(['nvidia-smi', '--query-gpu=utilization.gpu,clocks.sm,clocks.max.sm,timestamp','--format=csv,noheader,nounits'], capture_output=True, text=True)
@@ -20,6 +21,20 @@ def extract_values(data):
             if i + 4 < len(lines):
                 gpu_used = (int(lines[i + 3].split()[0].split(':')[1].strip()))
     return gpu_used
+    
+def extract_batch_size(data):
+    batch_szie = none
+    parts = data.split()
+    batch_size = parts[3]
+    return batch_size
+    
+def extract_convolutional_layer(data):
+    convolutional_layer = none
+    match = re.search(r'vgg(\d+)', data)
+    if match:
+        convolutional_layer = int(match.group(1))
+    return convolutional_layer
+
 
 def training(model):
     sm_utilization = None 
@@ -31,15 +46,20 @@ def training(model):
             if script_process.poll() is not None:
                 break
                 
-        # read other file for kv blovks, batch size and convolutional layer
         with open("data.txt", "r") as file:
             data = file.read()
             kv_blocks = extract_values(data)
+        with open("data1.txt", "r") as file1:
+            data1 = file1.read()
+            batch_size = extract_batch_size(data1)
+        with open("data2.txt", "r") as file2:
+            data2 = file2.read()
+            convolutional_layer = extract_convolutional_layer(data2)
         
         sm_utilization = run_nvidia_smi()
         script_process.terminate()
         script_process.wait()
-        
+    
     except KeyboardInterrupt:
         print("Keyboard interrupt detected. Stopping the data collection.")
         script_process.terminate()
@@ -52,3 +72,5 @@ if __name__ == "__main__":
     print(sm_origin)
     sm_new = training(model)
     print(sm_new)
+    sm_degradation = (sm_origin - sm_new)/sm_origin
+    model.load("model.pkl")
