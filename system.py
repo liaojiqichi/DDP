@@ -67,7 +67,7 @@ def training(model):
     return sm_utilization
   
 if __name__ == "__main__":
-    mmodel = 'vgg19'
+    model = 'vgg19'
     sm_origin = run_nvidia_smi()
     print(sm_origin)
     sm_new = training(model)
