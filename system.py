@@ -62,8 +62,8 @@ def training(model):
   
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run training with given model and threshold.")
-    parser.add_argument("-m", "--model", type=str, help="Model name")
-    parser.add_argument("-t", "--threshold", type=float, help="Threshold for comparison with y_pred")
+    parser.add_argument("-m", "--model", default='vgg19', type=str, help="Model name")
+    parser.add_argument("-t", "--threshold", default=256, type=int, help="Threshold for comparison with y_pred")
 
     args = parser.parse_args()
 
