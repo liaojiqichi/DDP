@@ -1,0 +1,1121 @@
+inference_model:14174650368
+Receive
+GPU_Used:79  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:15.937042  
+Avg prompt throughput: 86.7  Avg generation throughput: 0.1
+Receive
+GPU_Used:77  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:16.812645  
+Avg prompt throughput: 79.7  Avg generation throughput: 0.1
+GPU_Used:83  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:17.937501  
+Avg prompt throughput: 611.4  Avg generation throughput: 78.5
+GPU_Used:93  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:19.945884  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.2
+Receive
+GPU_Used:42  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:20.457578  
+Avg prompt throughput: 181.9  Avg generation throughput: 0.3
+Receive
+GPU_Used:52  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:21.585645  
+Avg prompt throughput: 729.5  Avg generation throughput: 0.9
+GPU_Used:54  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:21.952317  
+Avg prompt throughput: 740.5  Avg generation throughput: 73.3
+Receive
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:23.695927  
+Avg prompt throughput: 435.5  Avg generation throughput: 0.5
+GPU_Used:59  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:23.956588  
+Avg prompt throughput: 458.6  Avg generation throughput: 77.8
+Receive
+GPU_Used:50  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:24.639933  
+Avg prompt throughput: 837.9  Avg generation throughput: 1.1
+GPU_Used:57  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:25.959051  
+Avg prompt throughput: 395.0  Avg generation throughput: 79.9
+Receive
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:26.542755  
+Avg prompt throughput: 483.0  Avg generation throughput: 0.5
+GPU_Used:65  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:27.959130  
+Avg prompt throughput: 456.8  Avg generation throughput: 77.1
+Receive
+GPU_Used:131  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:29.689201  
+Avg prompt throughput: 663.3  Avg generation throughput: 0.3
+GPU_Used:132  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:29.960541  
+Avg prompt throughput: 1042.1  Avg generation throughput: 65.4
+GPU_Used:142  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:31.963983  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.2
+Receive
+GPU_Used:48  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:33.818108  
+Avg prompt throughput: 183.8  Avg generation throughput: 0.2
+GPU_Used:49  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:33.966617  
+Avg prompt throughput: 377.7  Avg generation throughput: 77.1
+GPU_Used:59  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:35.974246  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.7
+GPU_Used:70  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:37.984443  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.6
+GPU_Used:80  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:39.984900  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.5
+Receive
+GPU_Used:132  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:41.378375  
+Avg prompt throughput: 278.2  Avg generation throughput: 0.1
+GPU_Used:135  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:41.990105  
+Avg prompt throughput: 1048.7  Avg generation throughput: 64.3
+GPU_Used:145  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:43.996639  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.7
+GPU_Used:155  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:45.997332  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.0
+GPU_Used:164  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:48.006296  
+Avg prompt throughput: 0.0  Avg generation throughput: 76.1
+GPU_Used:174  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:50.006426  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.1
+GPU_Used:184  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:52.018008  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.0
+Receive
+GPU_Used:68  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:52.916077  
+Avg prompt throughput: 93.5  Avg generation throughput: 0.1
+GPU_Used:74  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:54.022528  
+Avg prompt throughput: 537.9  Avg generation throughput: 76.8
+Receive
+GPU_Used:102  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:55.125498  
+Avg prompt throughput: 735.5  Avg generation throughput: 0.5
+Receive
+GPU_Used:134  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:56.072351  
+Avg prompt throughput: 1880.0  Avg generation throughput: 65.5
+GPU_Used:144  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:58.083323  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.5
+Receive
+GPU_Used:64  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:58.398916  
+Avg prompt throughput: 310.1  Avg generation throughput: 0.3
+Receive
+GPU_Used:54  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:33:59.305667  
+Avg prompt throughput: 943.0  Avg generation throughput: 1.1
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:00.091076  
+Avg prompt throughput: 931.4  Avg generation throughput: 77.2
+Receive
+GPU_Used:94  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:00.810429  
+Avg prompt throughput: 993.5  Avg generation throughput: 0.7
+GPU_Used:101  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:02.101254  
+Avg prompt throughput: 743.7  Avg generation throughput: 78.6
+GPU_Used:111  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:04.110710  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.6
+GPU_Used:121  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:06.112135  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.9
+GPU_Used:129  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:08.129165  
+Avg prompt throughput: 0.0  Avg generation throughput: 63.0
+GPU_Used:136  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:10.132572  
+Avg prompt throughput: 0.0  Avg generation throughput: 55.9
+GPU_Used:143  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:12.138176  
+Avg prompt throughput: 0.0  Avg generation throughput: 56.3
+GPU_Used:150  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:14.145132  
+Avg prompt throughput: 0.0  Avg generation throughput: 52.8
+Receive
+GPU_Used:57  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:14.679920  
+Avg prompt throughput: 65.1  Avg generation throughput: 0.1
+GPU_Used:62  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:16.147707  
+Avg prompt throughput: 450.9  Avg generation throughput: 52.4
+GPU_Used:69  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:18.152528  
+Avg prompt throughput: 0.0  Avg generation throughput: 56.4
+Receive
+GPU_Used:78  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:18.472043  
+Avg prompt throughput: 326.7  Avg generation throughput: 0.3
+GPU_Used:84  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:20.172957  
+Avg prompt throughput: 613.3  Avg generation throughput: 51.5
+GPU_Used:90  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:22.174874  
+Avg prompt throughput: 0.0  Avg generation throughput: 52.0
+GPU_Used:97  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:24.191215  
+Avg prompt throughput: 0.0  Avg generation throughput: 53.6
+GPU_Used:104  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:26.201366  
+Avg prompt throughput: 0.0  Avg generation throughput: 56.2
+Receive
+GPU_Used:70  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:27.576780  
+Avg prompt throughput: 122.0  Avg generation throughput: 0.1
+GPU_Used:72  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:28.215420  
+Avg prompt throughput: 551.7  Avg generation throughput: 48.7
+Receive
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:29.806116  
+Avg prompt throughput: 412.2  Avg generation throughput: 0.4
+GPU_Used:59  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:30.224429  
+Avg prompt throughput: 457.4  Avg generation throughput: 53.8
+Receive
+GPU_Used:124  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:31.412261  
+Avg prompt throughput: 1229.7  Avg generation throughput: 0.6
+GPU_Used:127  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:32.243162  
+Avg prompt throughput: 978.4  Avg generation throughput: 49.5
+GPU_Used:134  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:34.259580  
+Avg prompt throughput: 0.0  Avg generation throughput: 57.0
+Receive
+GPU_Used:38  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:36.059422  
+Avg prompt throughput: 129.3  Avg generation throughput: 0.2
+GPU_Used:39  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:36.261231  
+Avg prompt throughput: 300.3  Avg generation throughput: 53.0
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:38.282926  
+Avg prompt throughput: 0.0  Avg generation throughput: 56.4
+Receive
+GPU_Used:62  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:40.246905  
+Avg prompt throughput: 234.7  Avg generation throughput: 0.2
+GPU_Used:62  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:40.291236  
+Avg prompt throughput: 489.5  Avg generation throughput: 46.3
+GPU_Used:71  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:42.299047  
+Avg prompt throughput: 0.0  Avg generation throughput: 74.7
+GPU_Used:82  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:44.307188  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.2
+GPU_Used:92  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:46.309086  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.4
+GPU_Used:102  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:48.316983  
+Avg prompt throughput: 0.0  Avg generation throughput: 84.2
+GPU_Used:113  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:50.320495  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.9
+GPU_Used:123  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:52.329964  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.1
+GPU_Used:133  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:54.333219  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.9
+GPU_Used:143  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:56.343779  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.6
+GPU_Used:153  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:34:58.355784  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.5
+GPU_Used:163  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:00.367111  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.0
+GPU_Used:173  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:02.375336  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.7
+GPU_Used:183  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:04.381584  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.7
+GPU_Used:193  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:06.391921  
+Avg prompt throughput: 0.0  Avg generation throughput: 74.6
+GPU_Used:203  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:08.393454  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.9
+GPU_Used:213  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:10.404879  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.0
+GPU_Used:222  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:12.408986  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.3
+GPU_Used:232  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:14.420233  
+Avg prompt throughput: 0.0  Avg generation throughput: 76.1
+GPU_Used:241  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:16.427223  
+Avg prompt throughput: 0.0  Avg generation throughput: 75.2
+GPU_Used:251  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:18.432545  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.8
+Receive
+GPU_Used:74  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:19.662339  
+Avg prompt throughput: 29.8  Avg generation throughput: 0.0
+GPU_Used:78  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:20.434633  
+Avg prompt throughput: 586.9  Avg generation throughput: 75.9
+Receive
+GPU_Used:56  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:21.653958  
+Avg prompt throughput: 445.4  Avg generation throughput: 0.5
+GPU_Used:60  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:22.436282  
+Avg prompt throughput: 443.1  Avg generation throughput: 80.9
+Receive
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:22.696789  
+Avg prompt throughput: 697.2  Avg generation throughput: 1.0
+Receive
+GPU_Used:32  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:24.290745  
+Avg prompt throughput: 315.6  Avg generation throughput: 0.6
+GPU_Used:33  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:24.446891  
+Avg prompt throughput: 611.8  Avg generation throughput: 80.1
+GPU_Used:43  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:26.449475  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.9
+Receive
+GPU_Used:110  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:27.716814  
+Avg prompt throughput: 511.1  Avg generation throughput: 0.3
+GPU_Used:113  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:28.453536  
+Avg prompt throughput: 873.7  Avg generation throughput: 71.9
+GPU_Used:124  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:30.475583  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.6
+Receive
+GPU_Used:162  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:32.544205  
+Avg prompt throughput: 1248.6  Avg generation throughput: 57.5
+GPU_Used:172  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:34.549983  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.2
+Receive
+GPU_Used:89  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:35.912148  
+Avg prompt throughput: 172.7  Avg generation throughput: 0.1
+GPU_Used:92  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:36.559285  
+Avg prompt throughput: 704.5  Avg generation throughput: 77.7
+GPU_Used:103  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:38.563637  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.8
+GPU_Used:113  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:40.571161  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.7
+GPU_Used:123  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:42.571953  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.0
+Receive
+GPU_Used:228  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:43.011718  
+Avg prompt throughput: 512.6  Avg generation throughput: 0.1
+GPU_Used:236  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:44.576811  
+Avg prompt throughput: 1815.1  Avg generation throughput: 65.3
+Receive
+GPU_Used:143  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:45.474502  
+Avg prompt throughput: 925.4  Avg generation throughput: 0.4
+GPU_Used:149  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:46.578531  
+Avg prompt throughput: 1138.5  Avg generation throughput: 71.9
+GPU_Used:159  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:48.589691  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.6
+GPU_Used:169  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:50.591320  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.9
+GPU_Used:179  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:52.603088  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.5
+GPU_Used:189  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:54.610076  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.7
+GPU_Used:199  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:56.613105  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.4
+GPU_Used:209  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:35:58.616277  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.4
+Receive
+GPU_Used:73  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:00.715419  
+Avg prompt throughput: 552.1  Avg generation throughput: 77.2
+Receive
+GPU_Used:154  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:01.714986  
+Avg prompt throughput: 151.3  Avg generation throughput: 0.1
+GPU_Used:159  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:02.718511  
+Avg prompt throughput: 1226.5  Avg generation throughput: 68.9
+Receive
+GPU_Used:72  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:04.534371  
+Avg prompt throughput: 405.4  Avg generation throughput: 0.4
+GPU_Used:73  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:04.728345  
+Avg prompt throughput: 568.7  Avg generation throughput: 77.1
+Receive
+GPU_Used:88  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:05.985658  
+Avg prompt throughput: 963.7  Avg generation throughput: 0.7
+GPU_Used:92  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:06.731078  
+Avg prompt throughput: 698.6  Avg generation throughput: 77.9
+Receive
+GPU_Used:28  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:07.454489  
+Avg prompt throughput: 299.0  Avg generation throughput: 0.7
+GPU_Used:35  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:08.735313  
+Avg prompt throughput: 219.0  Avg generation throughput: 81.8
+Receive
+GPU_Used:24  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:09.779478  
+Avg prompt throughput: 161.3  Avg generation throughput: 0.4
+Receive
+GPU_Used:122  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:10.880004  
+Avg prompt throughput: 1080.8  Avg generation throughput: 75.5
+GPU_Used:132  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:12.885627  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.3
+GPU_Used:142  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:14.888730  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.9
+Receive
+GPU_Used:72  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:15.146805  
+Avg prompt throughput: 213.0  Avg generation throughput: 0.2
+Receive
+GPU_Used:56  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:16.424661  
+Avg prompt throughput: 695.7  Avg generation throughput: 0.8
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:16.893703  
+Avg prompt throughput: 1013.5  Avg generation throughput: 73.8
+GPU_Used:69  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:18.896053  
+Avg prompt throughput: 0.0  Avg generation throughput: 84.9
+GPU_Used:79  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:20.898110  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.4
+GPU_Used:89  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:22.906389  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.7
+GPU_Used:99  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:24.914008  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.2
+Receive
+GPU_Used:50  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:26.315821  
+Avg prompt throughput: 80.0  Avg generation throughput: 0.1
+GPU_Used:53  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:26.925728  
+Avg prompt throughput: 393.2  Avg generation throughput: 76.6
+Receive
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:27.010492  
+Avg prompt throughput: 1046.3  Avg generation throughput: 1.4
+GPU_Used:56  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:28.933057  
+Avg prompt throughput: 362.2  Avg generation throughput: 81.2
+GPU_Used:66  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:30.939125  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.2
+Receive
+GPU_Used:65  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:32.330955  
+Avg prompt throughput: 193.4  Avg generation throughput: 0.2
+GPU_Used:68  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:32.947061  
+Avg prompt throughput: 512.5  Avg generation throughput: 79.2
+GPU_Used:78  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:34.950263  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.9
+Receive
+GPU_Used:197  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:36.013508  
+Avg prompt throughput: 853.5  Avg generation throughput: 0.3
+GPU_Used:202  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:36.961056  
+Avg prompt throughput: 1563.0  Avg generation throughput: 69.6
+Receive
+GPU_Used:57  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:37.686063  
+Avg prompt throughput: 539.9  Avg generation throughput: 0.6
+GPU_Used:63  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:38.968046  
+Avg prompt throughput: 449.9  Avg generation throughput: 76.7
+Receive
+GPU_Used:67  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:39.918155  
+Avg prompt throughput: 476.1  Avg generation throughput: 0.4
+GPU_Used:72  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:40.977714  
+Avg prompt throughput: 528.9  Avg generation throughput: 74.6
+Receive
+GPU_Used:66  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:42.631040  
+Avg prompt throughput: 386.0  Avg generation throughput: 0.4
+GPU_Used:68  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:42.987721  
+Avg prompt throughput: 521.0  Avg generation throughput: 77.6
+GPU_Used:78  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:44.998977  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.0
+Receive
+GPU_Used:18  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:46.493830  
+Avg prompt throughput: 71.7  Avg generation throughput: 0.3
+GPU_Used:21  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:47.001132  
+Avg prompt throughput: 138.4  Avg generation throughput: 82.9
+Receive
+GPU_Used:48  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:48.651288  
+Avg prompt throughput: 351.8  Avg generation throughput: 0.5
+GPU_Used:50  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:49.006912  
+Avg prompt throughput: 378.4  Avg generation throughput: 82.8
+GPU_Used:60  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:51.007440  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.0
+GPU_Used:70  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:53.011546  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.8
+GPU_Used:81  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:55.019804  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.7
+GPU_Used:91  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:57.023292  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.9
+GPU_Used:101  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:36:59.024202  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.0
+GPU_Used:112  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:01.027724  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.9
+GPU_Used:122  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:03.033023  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.3
+GPU_Used:132  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:05.042656  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.1
+GPU_Used:142  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:07.043797  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.9
+GPU_Used:152  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:09.050022  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.3
+GPU_Used:162  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:11.051050  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.0
+GPU_Used:172  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:13.053024  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.9
+GPU_Used:183  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:15.061166  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.7
+GPU_Used:192  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:17.067308  
+Avg prompt throughput: 0.0  Avg generation throughput: 76.3
+GPU_Used:202  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:19.067916  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.0
+GPU_Used:212  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:21.075858  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.7
+GPU_Used:222  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:23.080919  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.2
+GPU_Used:232  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:25.085673  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.9
+GPU_Used:242  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:27.088050  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.4
+GPU_Used:251  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:29.096459  
+Avg prompt throughput: 0.0  Avg generation throughput: 73.7
+Receive
+GPU_Used:106  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:30.501915  
+Avg prompt throughput: 40.3  Avg generation throughput: 0.0
+GPU_Used:109  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:31.106028  
+Avg prompt throughput: 839.5  Avg generation throughput: 70.2
+GPU_Used:119  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:33.108281  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.9
+Receive
+GPU_Used:64  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:34.912538  
+Avg prompt throughput: 230.1  Avg generation throughput: 0.2
+GPU_Used:65  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:35.111478  
+Avg prompt throughput: 506.7  Avg generation throughput: 76.4
+GPU_Used:75  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:37.112887  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.9
+GPU_Used:86  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:39.117641  
+Avg prompt throughput: 0.0  Avg generation throughput: 84.8
+Receive
+GPU_Used:106  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:41.009036  
+Avg prompt throughput: 276.7  Avg generation throughput: 0.2
+GPU_Used:107  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:41.128690  
+Avg prompt throughput: 838.9  Avg generation throughput: 78.6
+Receive
+GPU_Used:38  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:42.783677  
+Avg prompt throughput: 337.5  Avg generation throughput: 0.6
+GPU_Used:40  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:43.128886  
+Avg prompt throughput: 299.4  Avg generation throughput: 82.0
+Receive
+GPU_Used:64  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:43.936550  
+Avg prompt throughput: 880.4  Avg generation throughput: 0.9
+Receive
+GPU_Used:95  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:45.242149  
+Avg prompt throughput: 1195.5  Avg generation throughput: 71.9
+Receive
+GPU_Used:111  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:46.558079  
+Avg prompt throughput: 674.0  Avg generation throughput: 0.4
+GPU_Used:114  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:47.248289  
+Avg prompt throughput: 880.8  Avg generation throughput: 75.8
+Receive
+GPU_Used:50  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:48.812005  
+Avg prompt throughput: 351.8  Avg generation throughput: 0.4
+GPU_Used:52  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:49.253683  
+Avg prompt throughput: 395.4  Avg generation throughput: 79.3
+Receive
+GPU_Used:44  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:49.648379  
+Avg prompt throughput: 831.0  Avg generation throughput: 1.2
+Receive
+GPU_Used:116  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:50.955230  
+Avg prompt throughput: 1413.3  Avg generation throughput: 0.8
+GPU_Used:117  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:51.263009  
+Avg prompt throughput: 1265.1  Avg generation throughput: 73.7
+Receive
+GPU_Used:38  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:52.093274  
+Avg prompt throughput: 526.4  Avg generation throughput: 0.9
+GPU_Used:44  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:53.273246  
+Avg prompt throughput: 298.0  Avg generation throughput: 80.1
+Receive
+GPU_Used:81  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:53.569915  
+Avg prompt throughput: 871.6  Avg generation throughput: 0.7
+Receive
+GPU_Used:73  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:54.610702  
+Avg prompt throughput: 1113.7  Avg generation throughput: 1.0
+GPU_Used:76  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:55.274151  
+Avg prompt throughput: 1222.5  Avg generation throughput: 74.0
+Receive
+GPU_Used:30  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:56.349706  
+Avg prompt throughput: 270.8  Avg generation throughput: 0.6
+GPU_Used:0  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:57.295877  
+Avg prompt throughput: 233.0  Avg generation throughput: 75.7
+Receive
+GPU_Used:97  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:57.478098  
+Avg prompt throughput: 1367.8  Avg generation throughput: 0.9
+GPU_Used:106  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:37:59.306278  
+Avg prompt throughput: 767.5  Avg generation throughput: 73.1
+GPU_Used:117  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:01.318020  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.5
+GPU_Used:127  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:03.325413  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.2
+Receive
+GPU_Used:64  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:03.853686  
+Avg prompt throughput: 159.2  Avg generation throughput: 0.2
+Receive
+GPU_Used:129  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:04.864902  
+Avg prompt throughput: 2031.9  Avg generation throughput: 1.0
+GPU_Used:131  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:05.335073  
+Avg prompt throughput: 1527.8  Avg generation throughput: 68.7
+Receive
+GPU_Used:52  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:07.243421  
+Avg prompt throughput: 346.0  Avg generation throughput: 0.4
+GPU_Used:52  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:07.347241  
+Avg prompt throughput: 409.0  Avg generation throughput: 76.5
+GPU_Used:63  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:09.349596  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.4
+Receive
+GPU_Used:90  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:09.798299  
+Avg prompt throughput: 560.2  Avg generation throughput: 0.4
+GPU_Used:98  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:11.361622  
+Avg prompt throughput: 711.1  Avg generation throughput: 75.0
+Receive
+GPU_Used:74  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:12.603145  
+Avg prompt throughput: 418.9  Avg generation throughput: 0.4
+GPU_Used:78  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:13.372352  
+Avg prompt throughput: 584.5  Avg generation throughput: 73.1
+GPU_Used:88  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:15.378535  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.2
+GPU_Used:0  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:17.384709  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.2
+Receive
+GPU_Used:24  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:17.424217  
+Avg prompt throughput: 77.8  Avg generation throughput: 0.2
+GPU_Used:34  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:19.394456  
+Avg prompt throughput: 186.6  Avg generation throughput: 82.6
+Receive
+GPU_Used:113  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:20.572044  
+Avg prompt throughput: 571.5  Avg generation throughput: 0.3
+GPU_Used:117  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:21.396527  
+Avg prompt throughput: 898.4  Avg generation throughput: 76.9
+GPU_Used:127  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:23.406789  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.1
+Receive
+GPU_Used:65  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:24.517879  
+Avg prompt throughput: 261.3  Avg generation throughput: 0.3
+GPU_Used:70  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:25.417383  
+Avg prompt throughput: 512.8  Avg generation throughput: 74.1
+GPU_Used:80  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:27.419235  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.9
+Receive
+GPU_Used:57  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:29.147857  
+Avg prompt throughput: 195.5  Avg generation throughput: 0.2
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:29.420477  
+Avg prompt throughput: 452.2  Avg generation throughput: 77.5
+Receive
+GPU_Used:76  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:31.226601  
+Avg prompt throughput: 580.7  Avg generation throughput: 0.5
+GPU_Used:77  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:31.431148  
+Avg prompt throughput: 600.2  Avg generation throughput: 78.1
+Receive
+GPU_Used:116  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:31.900116  
+Avg prompt throughput: 2743.4  Avg generation throughput: 1.5
+GPU_Used:124  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:33.441878  
+Avg prompt throughput: 918.5  Avg generation throughput: 75.6
+Receive
+GPU_Used:76  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:35.036084  
+Avg prompt throughput: 384.9  Avg generation throughput: 0.3
+GPU_Used:78  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:35.449443  
+Avg prompt throughput: 601.3  Avg generation throughput: 75.7
+Receive
+GPU_Used:52  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:36.464962  
+Avg prompt throughput: 576.0  Avg generation throughput: 0.7
+Receive
+GPU_Used:36  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:37.498200  
+Avg prompt throughput: 678.5  Avg generation throughput: 78.1
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:39.501378  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.9
+GPU_Used:57  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:41.503905  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.4
+GPU_Used:67  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:43.508626  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.3
+GPU_Used:77  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:45.518426  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.6
+GPU_Used:86  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:47.526907  
+Avg prompt throughput: 0.0  Avg generation throughput: 71.2
+GPU_Used:94  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:49.528804  
+Avg prompt throughput: 0.0  Avg generation throughput: 59.4
+GPU_Used:101  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:51.529887  
+Avg prompt throughput: 0.0  Avg generation throughput: 59.5
+GPU_Used:109  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:53.550896  
+Avg prompt throughput: 0.0  Avg generation throughput: 60.4
+GPU_Used:116  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:55.565348  
+Avg prompt throughput: 0.0  Avg generation throughput: 58.6
+GPU_Used:123  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:57.569895  
+Avg prompt throughput: 0.0  Avg generation throughput: 54.4
+GPU_Used:129  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:38:59.585361  
+Avg prompt throughput: 0.0  Avg generation throughput: 49.1
+GPU_Used:136  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:01.597275  
+Avg prompt throughput: 0.0  Avg generation throughput: 54.7
+GPU_Used:143  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:03.612449  
+Avg prompt throughput: 0.0  Avg generation throughput: 54.1
+GPU_Used:150  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:05.625648  
+Avg prompt throughput: 0.0  Avg generation throughput: 54.2
+GPU_Used:156  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:07.636209  
+Avg prompt throughput: 0.0  Avg generation throughput: 53.2
+GPU_Used:164  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:09.636304  
+Avg prompt throughput: 0.0  Avg generation throughput: 57.0
+GPU_Used:170  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:11.650083  
+Avg prompt throughput: 0.0  Avg generation throughput: 54.1
+GPU_Used:177  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:13.666323  
+Avg prompt throughput: 0.0  Avg generation throughput: 56.0
+GPU_Used:184  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:15.689033  
+Avg prompt throughput: 0.0  Avg generation throughput: 48.9
+GPU_Used:190  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:17.697478  
+Avg prompt throughput: 0.0  Avg generation throughput: 49.3
+GPU_Used:196  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:19.708666  
+Avg prompt throughput: 0.0  Avg generation throughput: 47.7
+GPU_Used:205  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:21.712812  
+Avg prompt throughput: 0.0  Avg generation throughput: 74.9
+GPU_Used:215  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:23.723499  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.1
+GPU_Used:224  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:25.732297  
+Avg prompt throughput: 0.0  Avg generation throughput: 76.7
+GPU_Used:234  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:27.740235  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.2
+GPU_Used:244  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:29.747690  
+Avg prompt throughput: 0.0  Avg generation throughput: 75.2
+GPU_Used:254  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:31.758519  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.6
+Receive
+GPU_Used:42  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:32.372673  
+Avg prompt throughput: 11.9  Avg generation throughput: 0.0
+GPU_Used:49  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:33.759979  
+Avg prompt throughput: 331.3  Avg generation throughput: 80.9
+GPU_Used:60  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:35.765192  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.8
+GPU_Used:70  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:37.770900  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.3
+GPU_Used:80  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:39.774206  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.9
+GPU_Used:91  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:41.778679  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.8
+GPU_Used:101  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:43.789895  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.5
+GPU_Used:111  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:45.790772  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.0
+GPU_Used:122  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:47.791812  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.5
+GPU_Used:131  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:49.792858  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.0
+GPU_Used:142  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:51.794068  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.9
+GPU_Used:151  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:53.803137  
+Avg prompt throughput: 0.0  Avg generation throughput: 75.6
+GPU_Used:161  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:55.815105  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.5
+GPU_Used:171  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:57.823672  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.7
+GPU_Used:181  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:39:59.824259  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.0
+GPU_Used:192  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:01.830855  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.7
+GPU_Used:201  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:03.834306  
+Avg prompt throughput: 0.0  Avg generation throughput: 75.9
+GPU_Used:211  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:05.846042  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.0
+GPU_Used:221  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:07.851803  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.3
+GPU_Used:231  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:09.861647  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.6
+GPU_Used:241  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:11.868348  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.7
+GPU_Used:250  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:13.875223  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.7
+Receive
+GPU_Used:48  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:15.217382  
+Avg prompt throughput: 17.7  Avg generation throughput: 0.0
+GPU_Used:51  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:15.895928  
+Avg prompt throughput: 375.6  Avg generation throughput: 75.7
+Receive
+GPU_Used:54  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:17.698473  
+Avg prompt throughput: 344.6  Avg generation throughput: 0.4
+GPU_Used:55  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:17.903676  
+Avg prompt throughput: 425.9  Avg generation throughput: 73.2
+Receive
+GPU_Used:191  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:19.287563  
+Avg prompt throughput: 1919.1  Avg generation throughput: 0.6
+GPU_Used:194  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:19.905550  
+Avg prompt throughput: 1523.0  Avg generation throughput: 72.4
+Receive
+GPU_Used:36  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:21.664697  
+Avg prompt throughput: 238.5  Avg generation throughput: 0.4
+GPU_Used:37  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:21.914536  
+Avg prompt throughput: 282.2  Avg generation throughput: 77.2
+Receive
+GPU_Used:176  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:23.101366  
+Avg prompt throughput: 1955.2  Avg generation throughput: 0.7
+GPU_Used:180  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:23.923561  
+Avg prompt throughput: 1398.2  Avg generation throughput: 70.7
+GPU_Used:190  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:25.926431  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.4
+GPU_Used:200  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:27.934089  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.2
+GPU_Used:210  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:29.934177  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.5
+Receive
+GPU_Used:77  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:30.083859  
+Avg prompt throughput: 175.2  Avg generation throughput: 0.1
+GPU_Used:87  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:31.945067  
+Avg prompt throughput: 608.2  Avg generation throughput: 78.6
+GPU_Used:97  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:33.948649  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.3
+Receive
+GPU_Used:16  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:34.758818  
+Avg prompt throughput: 53.3  Avg generation throughput: 0.2
+GPU_Used:22  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:35.958225  
+Avg prompt throughput: 123.9  Avg generation throughput: 84.1
+GPU_Used:33  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:37.968916  
+Avg prompt throughput: 0.0  Avg generation throughput: 84.5
+GPU_Used:44  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:39.975809  
+Avg prompt throughput: 0.0  Avg generation throughput: 84.2
+GPU_Used:54  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:41.980914  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.8
+GPU_Used:64  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:43.986698  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.3
+GPU_Used:75  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:45.996916  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.1
+GPU_Used:85  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:48.007986  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.0
+GPU_Used:95  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:50.018984  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.1
+GPU_Used:105  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:52.027251  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.2
+GPU_Used:116  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:54.027816  
+Avg prompt throughput: 0.0  Avg generation throughput: 84.0
+GPU_Used:126  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:56.031040  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.4
+GPU_Used:136  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:40:58.041074  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.6
+GPU_Used:146  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:00.048680  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.2
+GPU_Used:156  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:02.052201  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.4
+GPU_Used:166  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:04.052705  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.5
+GPU_Used:176  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:06.063735  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.6
+GPU_Used:186  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:08.064381  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.0
+GPU_Used:196  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:10.074966  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.6
+GPU_Used:206  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:12.082767  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.7
+GPU_Used:216  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:14.084652  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.9
+GPU_Used:225  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:16.092368  
+Avg prompt throughput: 0.0  Avg generation throughput: 76.2
+GPU_Used:234  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:18.094225  
+Avg prompt throughput: 0.0  Avg generation throughput: 70.9
+GPU_Used:244  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:20.102972  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.2
+GPU_Used:254  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:22.114717  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.1
+Receive
+GPU_Used:44  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:22.787733  
+Avg prompt throughput: 14.5  Avg generation throughput: 0.0
+GPU_Used:51  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:24.120710  
+Avg prompt throughput: 346.5  Avg generation throughput: 77.8
+Receive
+GPU_Used:40  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:25.369504  
+Avg prompt throughput: 244.4  Avg generation throughput: 0.4
+GPU_Used:44  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:26.123563  
+Avg prompt throughput: 315.1  Avg generation throughput: 80.4
+Receive
+GPU_Used:16  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:26.938638  
+Avg prompt throughput: 157.4  Avg generation throughput: 0.6
+GPU_Used:22  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:28.131590  
+Avg prompt throughput: 123.0  Avg generation throughput: 81.2
+Receive
+GPU_Used:70  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:28.873863  
+Avg prompt throughput: 574.1  Avg generation throughput: 0.5
+Receive
+GPU_Used:60  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:30.032821  
+Avg prompt throughput: 820.5  Avg generation throughput: 0.9
+GPU_Used:60  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:30.135725  
+Avg prompt throughput: 1028.9  Avg generation throughput: 75.3
+Receive
+GPU_Used:28  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:31.649024  
+Avg prompt throughput: 271.6  Avg generation throughput: 0.6
+GPU_Used:30  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:32.146279  
+Avg prompt throughput: 218.3  Avg generation throughput: 80.1
+Receive
+GPU_Used:34  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:33.060335  
+Avg prompt throughput: 379.1  Avg generation throughput: 0.7
+GPU_Used:40  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:34.151703  
+Avg prompt throughput: 266.8  Avg generation throughput: 80.8
+Receive
+GPU_Used:74  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:35.514534  
+Avg prompt throughput: 478.8  Avg generation throughput: 0.4
+GPU_Used:77  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:36.158416  
+Avg prompt throughput: 585.5  Avg generation throughput: 80.2
+GPU_Used:88  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:38.162005  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.8
+GPU_Used:98  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:40.164229  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.9
+GPU_Used:108  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:42.165318  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.0
+Receive
+GPU_Used:50  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:43.598683  
+Avg prompt throughput: 97.8  Avg generation throughput: 0.1
+GPU_Used:53  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:44.166720  
+Avg prompt throughput: 395.2  Avg generation throughput: 79.4
+GPU_Used:63  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:46.177532  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.6
+GPU_Used:73  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:48.178170  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.5
+GPU_Used:84  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:50.187553  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.6
+GPU_Used:94  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:52.193186  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.3
+GPU_Used:104  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:54.204491  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.1
+GPU_Used:114  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:56.204804  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.0
+GPU_Used:124  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:41:58.215419  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.1
+GPU_Used:134  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:00.227282  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.5
+GPU_Used:144  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:02.236783  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.1
+GPU_Used:155  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:04.241495  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.8
+GPU_Used:164  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:06.248545  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.2
+GPU_Used:175  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:08.256004  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.2
+GPU_Used:185  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:10.256750  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.5
+GPU_Used:195  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:12.268828  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.0
+GPU_Used:205  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:14.280125  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.6
+GPU_Used:214  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:16.284386  
+Avg prompt throughput: 0.0  Avg generation throughput: 77.3
+GPU_Used:224  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:18.289605  
+Avg prompt throughput: 0.0  Avg generation throughput: 72.8
+GPU_Used:233  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:20.298685  
+Avg prompt throughput: 0.0  Avg generation throughput: 75.2
+GPU_Used:243  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:22.310647  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.5
+GPU_Used:252  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:24.314050  
+Avg prompt throughput: 0.0  Avg generation throughput: 74.4
+Receive
+GPU_Used:249  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:25.834309  
+Avg prompt throughput: 94.1  Avg generation throughput: 0.0
+GPU_Used:251  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:26.315842  
+Avg prompt throughput: 1985.7  Avg generation throughput: 52.0
+Receive
+GPU_Used:18  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:27.384766  
+Avg prompt throughput: 180.0  Avg generation throughput: 0.6
+Receive
+GPU_Used:90  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:28.334510  
+Avg prompt throughput: 847.1  Avg generation throughput: 76.8
+GPU_Used:100  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:30.335431  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.5
+GPU_Used:110  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:32.345173  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.6
+GPU_Used:120  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:34.352494  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.2
+Receive
+GPU_Used:214  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:36.033880  
+Avg prompt throughput: 394.8  Avg generation throughput: 0.1
+GPU_Used:216  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:36.363854  
+Avg prompt throughput: 1697.9  Avg generation throughput: 67.6
+GPU_Used:225  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:38.368383  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.3
+Receive
+GPU_Used:97  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:39.229029  
+Avg prompt throughput: 482.9  Avg generation throughput: 0.3
+GPU_Used:103  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:40.372055  
+Avg prompt throughput: 770.1  Avg generation throughput: 75.9
+Receive
+GPU_Used:56  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:41.436376  
+Avg prompt throughput: 401.9  Avg generation throughput: 0.5
+GPU_Used:61  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:42.372832  
+Avg prompt throughput: 443.3  Avg generation throughput: 80.0
+GPU_Used:71  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:44.384276  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.5
+GPU_Used:81  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:46.384406  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.0
+Receive
+GPU_Used:121  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:47.071004  
+Avg prompt throughput: 342.0  Avg generation throughput: 0.2
+Receive
+GPU_Used:68  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:47.962414  
+Avg prompt throughput: 1210.1  Avg generation throughput: 1.1
+GPU_Used:70  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:48.393372  
+Avg prompt throughput: 1496.2  Avg generation throughput: 68.2
+GPU_Used:80  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:50.400928  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.7
+Receive
+GPU_Used:60  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:51.992293  
+Avg prompt throughput: 236.0  Avg generation throughput: 0.2
+GPU_Used:62  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:52.405416  
+Avg prompt throughput: 474.6  Avg generation throughput: 79.8
+Receive
+GPU_Used:50  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:53.721666  
+Avg prompt throughput: 457.3  Avg generation throughput: 0.6
+GPU_Used:53  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:54.409992  
+Avg prompt throughput: 394.6  Avg generation throughput: 76.3
+Receive
+GPU_Used:48  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:54.975925  
+Avg prompt throughput: 605.1  Avg generation throughput: 0.8
+GPU_Used:55  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:56.418285  
+Avg prompt throughput: 377.9  Avg generation throughput: 76.7
+GPU_Used:65  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:58.424942  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.2
+Receive
+GPU_Used:43  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:42:58.598767  
+Avg prompt throughput: 187.4  Avg generation throughput: 0.3
+GPU_Used:52  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:00.426400  
+Avg prompt throughput: 339.3  Avg generation throughput: 81.4
+Receive
+GPU_Used:93  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:00.994823  
+Avg prompt throughput: 618.1  Avg generation throughput: 0.4
+Receive
+GPU_Used:80  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:02.051605  
+Avg prompt throughput: 1202.6  Avg generation throughput: 0.9
+GPU_Used:82  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:02.426649  
+Avg prompt throughput: 1375.6  Avg generation throughput: 72.5
+GPU_Used:92  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:04.435139  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.2
+GPU_Used:102  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:06.441981  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.7
+Receive
+GPU_Used:56  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:07.356714  
+Avg prompt throughput: 167.2  Avg generation throughput: 0.2
+Receive
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:08.488153  
+Avg prompt throughput: 788.8  Avg generation throughput: 76.2
+Receive
+GPU_Used:54  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:09.396076  
+Avg prompt throughput: 419.3  Avg generation throughput: 0.5
+GPU_Used:60  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:10.496165  
+Avg prompt throughput: 425.8  Avg generation throughput: 79.2
+Receive
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:10.619121  
+Avg prompt throughput: 751.4  Avg generation throughput: 0.8
+Receive
+GPU_Used:42  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:11.736842  
+Avg prompt throughput: 595.0  Avg generation throughput: 0.9
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:12.501819  
+Avg prompt throughput: 789.8  Avg generation throughput: 76.3
+Receive
+GPU_Used:61  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:13.465079  
+Avg prompt throughput: 559.4  Avg generation throughput: 0.6
+GPU_Used:66  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:14.504380  
+Avg prompt throughput: 482.9  Avg generation throughput: 75.9
+GPU_Used:76  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:16.512733  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.2
+GPU_Used:86  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:18.520329  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.7
+GPU_Used:97  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:20.522689  
+Avg prompt throughput: 0.0  Avg generation throughput: 84.4
+GPU_Used:107  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:22.530831  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.2
+Receive
+GPU_Used:60  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:24.564925  
+Avg prompt throughput: 467.5  Avg generation throughput: 77.7
+GPU_Used:70  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:26.574862  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.6
+Receive
+GPU_Used:66  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:27.597012  
+Avg prompt throughput: 74.1  Avg generation throughput: 0.1
+GPU_Used:71  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:28.584272  
+Avg prompt throughput: 520.9  Avg generation throughput: 77.1
+Receive
+GPU_Used:38  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:28.878508  
+Avg prompt throughput: 467.4  Avg generation throughput: 0.8
+GPU_Used:47  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:30.591120  
+Avg prompt throughput: 298.5  Avg generation throughput: 78.7
+Receive
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:30.821107  
+Avg prompt throughput: 374.2  Avg generation throughput: 0.5
+Receive
+GPU_Used:103  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:31.769677  
+Avg prompt throughput: 1727.8  Avg generation throughput: 1.1
+GPU_Used:107  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:32.600337  
+Avg prompt throughput: 1177.8  Avg generation throughput: 73.2
+GPU_Used:117  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:34.601292  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.5
+GPU_Used:125  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:36.623386  
+Avg prompt throughput: 0.0  Avg generation throughput: 58.9
+Receive
+GPU_Used:49  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:38.088450  
+Avg prompt throughput: 122.7  Avg generation throughput: 0.2
+GPU_Used:51  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:38.629630  
+Avg prompt throughput: 386.3  Avg generation throughput: 54.3
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:40.632742  
+Avg prompt throughput: 0.0  Avg generation throughput: 57.9
+GPU_Used:65  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:42.642532  
+Avg prompt throughput: 0.0  Avg generation throughput: 54.7
+GPU_Used:72  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:44.646030  
+Avg prompt throughput: 0.0  Avg generation throughput: 54.4
+Receive
+GPU_Used:71  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:46.315341  
+Avg prompt throughput: 137.0  Avg generation throughput: 0.1
+GPU_Used:72  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:46.663170  
+Avg prompt throughput: 558.8  Avg generation throughput: 50.1
+GPU_Used:79  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:48.672593  
+Avg prompt throughput: 0.0  Avg generation throughput: 55.2
+GPU_Used:86  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:50.675819  
+Avg prompt throughput: 0.0  Avg generation throughput: 52.9
+GPU_Used:92  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:52.697488  
+Avg prompt throughput: 0.0  Avg generation throughput: 52.9
+GPU_Used:98  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:54.702932  
+Avg prompt throughput: 0.0  Avg generation throughput: 45.4
+Receive
+GPU_Used:50  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:55.086745  
+Avg prompt throughput: 90.2  Avg generation throughput: 0.1
+GPU_Used:55  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:56.711469  
+Avg prompt throughput: 393.9  Avg generation throughput: 47.8
+Receive
+GPU_Used:44  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:57.091290  
+Avg prompt throughput: 346.7  Avg generation throughput: 0.5
+GPU_Used:49  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:43:58.721154  
+Avg prompt throughput: 345.8  Avg generation throughput: 50.8
+GPU_Used:56  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:00.730328  
+Avg prompt throughput: 0.0  Avg generation throughput: 52.8
+GPU_Used:63  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:02.731716  
+Avg prompt throughput: 0.0  Avg generation throughput: 52.0
+Receive
+GPU_Used:82  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:03.436918  
+Avg prompt throughput: 205.3  Avg generation throughput: 0.2
+GPU_Used:86  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:04.740749  
+Avg prompt throughput: 648.6  Avg generation throughput: 48.3
+Receive
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:05.531390  
+Avg prompt throughput: 438.8  Avg generation throughput: 0.5
+GPU_Used:62  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:06.744252  
+Avg prompt throughput: 458.7  Avg generation throughput: 50.9
+Receive
+GPU_Used:64  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:07.275593  
+Avg prompt throughput: 581.9  Avg generation throughput: 0.6
+GPU_Used:69  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:08.754934  
+Avg prompt throughput: 504.8  Avg generation throughput: 53.7
+Receive
+GPU_Used:52  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:09.416276  
+Avg prompt throughput: 384.5  Avg generation throughput: 0.5
+GPU_Used:59  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:10.756855  
+Avg prompt throughput: 411.1  Avg generation throughput: 76.9
+GPU_Used:69  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:12.761360  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.3
+Receive
+GPU_Used:165  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:14.990279  
+Avg prompt throughput: 1180.4  Avg generation throughput: 74.5
+GPU_Used:175  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:16.993647  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.4
+Receive
+GPU_Used:71  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:18.254740  
+Avg prompt throughput: 127.5  Avg generation throughput: 0.1
+GPU_Used:75  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:19.004020  
+Avg prompt throughput: 560.5  Avg generation throughput: 78.6
+Receive
+GPU_Used:55  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:20.782698  
+Avg prompt throughput: 344.5  Avg generation throughput: 0.4
+GPU_Used:56  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:21.011667  
+Avg prompt throughput: 433.9  Avg generation throughput: 78.2
+GPU_Used:67  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:23.013432  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.4
+GPU_Used:77  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:25.021046  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.2
+GPU_Used:87  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:27.025733  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.3
+Receive
+GPU_Used:42  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:27.982393  
+Avg prompt throughput: 92.1  Avg generation throughput: 0.1
+GPU_Used:47  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:29.034414  
+Avg prompt throughput: 330.1  Avg generation throughput: 81.1
+GPU_Used:58  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:31.042898  
+Avg prompt throughput: 0.0  Avg generation throughput: 81.2
+Receive
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:31.298993  
+Avg prompt throughput: 219.2  Avg generation throughput: 0.3
+Receive
+GPU_Used:136  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:32.672053  
+Avg prompt throughput: 1578.0  Avg generation throughput: 0.7
+GPU_Used:138  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:33.053056  
+Avg prompt throughput: 1439.3  Avg generation throughput: 67.6
+GPU_Used:148  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:35.059110  
+Avg prompt throughput: 0.0  Avg generation throughput: 78.8
+Receive
+GPU_Used:62  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:35.322504  
+Avg prompt throughput: 370.9  Avg generation throughput: 0.4
+Receive
+GPU_Used:66  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:36.490939  
+Avg prompt throughput: 896.1  Avg generation throughput: 0.9
+GPU_Used:69  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:37.069228  
+Avg prompt throughput: 1009.8  Avg generation throughput: 72.6
+Receive
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:39.033991  
+Avg prompt throughput: 286.7  Avg generation throughput: 0.4
+GPU_Used:46  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:39.074094  
+Avg prompt throughput: 363.6  Avg generation throughput: 80.3
+Receive
+GPU_Used:124  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:40.376712  
+Avg prompt throughput: 1471.3  Avg generation throughput: 0.7
+GPU_Used:128  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:41.083758  
+Avg prompt throughput: 982.9  Avg generation throughput: 74.2
+Receive
+GPU_Used:62  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:41.698756  
+Avg prompt throughput: 743.3  Avg generation throughput: 0.8
+GPU_Used:69  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:43.092932  
+Avg prompt throughput: 489.2  Avg generation throughput: 76.6
+GPU_Used:79  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:45.103917  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.0
+Receive
+GPU_Used:62  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:46.884007  
+Avg prompt throughput: 189.6  Avg generation throughput: 0.2
+GPU_Used:63  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:47.112855  
+Avg prompt throughput: 489.3  Avg generation throughput: 80.1
+Receive
+GPU_Used:127  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:48.518982  
+Avg prompt throughput: 1237.3  Avg generation throughput: 0.6
+GPU_Used:130  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:49.116671  
+Avg prompt throughput: 1009.6  Avg generation throughput: 75.9
+Receive
+GPU_Used:28  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:49.432405  
+Avg prompt throughput: 482.9  Avg generation throughput: 1.1
+Receive
+GPU_Used:72  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:51.076829  
+Avg prompt throughput: 695.0  Avg generation throughput: 0.6
+GPU_Used:72  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:51.126611  
+Avg prompt throughput: 788.1  Avg generation throughput: 78.1
+GPU_Used:83  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:53.129081  
+Avg prompt throughput: 0.0  Avg generation throughput: 82.9
+Receive
+GPU_Used:67  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:54.123786  
+Avg prompt throughput: 348.9  Avg generation throughput: 0.3
+GPU_Used:72  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:55.137867  
+Avg prompt throughput: 529.2  Avg generation throughput: 77.7
+GPU_Used:82  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:57.148846  
+Avg prompt throughput: 0.0  Avg generation throughput: 79.6
+GPU_Used:93  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:44:59.153676  
+Avg prompt throughput: 0.0  Avg generation throughput: 83.8
+GPU_Used:103  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:45:01.163655  
+Avg prompt throughput: 0.0  Avg generation throughput: 80.6
+Receive
+GPU_Used:64  CPU_Used_Memory:0  Block_Size:8388608  Time is:12:45:01.397624  
+Avg prompt throughput: 139.5  Avg generation throughput: 0.1
