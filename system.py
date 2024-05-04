@@ -78,11 +78,10 @@ if __name__ == "__main__":
         print(sm_origin)
         kv_blocks, batch_size, model_size, sm_new, script_process = training(model,batch)
         print(sm_new)
-        sm_degradation = (sm_origin - sm_new)/sm_origin
-        #sm_degradation = (sm_origin - sm_new)/90
+        sm_escalating = (sm_new - sm_origin)/sm_origin
         # Load the trained linear regression model from file
         loaded_model = joblib.load('linear_regression_model.pkl')
-        X_new = [[kv_blocks, batch_size, model_size, sm_degradation]]
+        X_new = [[kv_blocks, batch_size, model_size, sm_escalating]]
         y_pred = loaded_model.predict(X_new)
         print("Predicted output:", y_pred)
         if y_pred[0] >= threshold:
