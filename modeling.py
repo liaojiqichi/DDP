@@ -109,7 +109,7 @@ rep_points = np.interp(np.linspace(0, len(sm_data)-1, num_bins), np.arange(len(s
 rep_points1 = np.interp(np.linspace(0, len(sm_data1)-1, num_bins), np.arange(len(sm_data1)), sm_data1)
 
 
-sm_reduction_rate = []
+sm_escalating_rate = []
 for i in range(len(rep_points)):
     sm_escalating_rate.append((rep_points1[i]-rep_points[i])/rep_points[i])
 
