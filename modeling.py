@@ -111,7 +111,7 @@ rep_points1 = np.interp(np.linspace(0, len(sm_data1)-1, num_bins), np.arange(len
 
 sm_reduction_rate = []
 for i in range(len(rep_points)):
-    sm_reduction_rate.append((rep_points[i]-rep_points1[i])/rep_points[i])
+    sm_escalating_rate.append((rep_points1[i]-rep_points[i])/rep_points[i])
 
 throughput_reduction_rate = []
 for i in range(len(throughput)):
@@ -127,7 +127,7 @@ for i in range(len(throughput)):
     row[0] = gpu_used1[i]
     row[1] = batch_size1[i]
     row[2] = model_size1[i]
-    row[3] = sm_reduction_rate[i]
+    row[3] = sm_escalating_rate[i]
     
     x.append(row)
 
