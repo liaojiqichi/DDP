@@ -1,4 +1,6 @@
 from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 import numpy as np
@@ -6,33 +8,20 @@ import csv
 import joblib
 
 def extract_sm(reader):
-    # Initialize an empty list to store the lines
     lines = []
-    # Iterate over each row in the CSV file
     for row in reader:
-        # Join the elements of the row with a tab separator
         line = '\t'.join(row)
-        # Append the line to the list of lines
         lines.append(line)
 
-    # Join the lines with newline characters to create the data string
     data_string = '\n'.join(lines)
 
-
-    # Split the data string by lines
     lines = data_string.split('\n')
 
-    # Initialize an empty list to store the extracted data
     sm_utilization = []
 
-    # Iterate over each line
     for line in lines:
-        # Split each line by tab (\t)
         parts = line.split('\t')[0].split(',')
-        #print(parts)
-        # Check if the line has enough parts
         if len(parts) >= 5:
-            # Extract SM utilization and time
             sm_utilization.append(float(parts[5]))
 
     return sm_utilization
@@ -51,7 +40,6 @@ def extract_data(file):
     for line in lines:
         if "Batch size is" in line:
             batch_size_str = line.split("Batch size is ")[1].strip()
-            # Remove any trailing period if present
             batch_size = int(batch_size_str.rstrip('.'))
         elif "Model size (MB) is" in line:
             model_size = float(line.split("Model size (MB) is ")[1].strip())
@@ -93,18 +81,15 @@ for i in range(len(throughput1)):
         throughput1[i] = throughput1[i] + 40
 
 with open('sm_info.csv', 'r') as file2:
-    # Create a CSV reader object
     reader = csv.reader(file2, delimiter='\t')
     sm_data = extract_sm(reader)
 
 with open('GPU_info.csv', 'r') as file3:
-    # Create a CSV reader object
     reader1 = csv.reader(file3, delimiter='\t')
     sm_data1 = extract_sm(reader1)
 
 num_bins = len(throughput)
 
-# Interpolate sm_data and sm_data1 to match the length of throughput
 rep_points = np.interp(np.linspace(0, len(sm_data)-1, num_bins), np.arange(len(sm_data)), sm_data)
 rep_points1 = np.interp(np.linspace(0, len(sm_data1)-1, num_bins), np.arange(len(sm_data1)), sm_data1)
 
@@ -123,7 +108,7 @@ for i in range(len(throughput)):
 x = []
 
 for i in range(len(throughput)):
-    row = [0, 0, 0, 0]  # Initialize a row with placeholders
+    row = [0, 0, 0, 0]
     row[0] = gpu_used1[i]
     row[1] = batch_size1[i]
     row[2] = model_size1[i]
@@ -133,24 +118,38 @@ for i in range(len(throughput)):
 
 y = throughput_reduction_rate
 
-# Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
 
 
-# Initialize the Linear Regression model
 linear_regressor = LinearRegression()
 
-# Train the model
 linear_regressor.fit(X_train, y_train)
 
-# Predict on the test set
 y_pred = linear_regressor.predict(X_test)
 
-# Calculate Mean Squared Error (MSE)
 mse = mean_squared_error(y_test, y_pred)
 print("Mean Squared Error:", mse)
 
 
-# Save the trained model to a file
 joblib.dump(linear_regressor, 'linear_regression_model.pkl')
+
+
+random_forest_regressor = RandomForestRegressor()
+
+random_forest_regressor.fit(X_train, y_train)
+
+y_pred_rf = random_forest_regressor.predict(X_test)
+
+mse_rf = mean_squared_error(y_test, y_pred_rf)
+print("Random Forest Mean Squared Error:", mse_rf)
+
+gradient_boosting_regressor = GradientBoostingRegressor()
+
+gradient_boosting_regressor.fit(X_train, y_train)
+
+y_pred_gb = gradient_boosting_regressor.predict(X_test)
+
+mse_gb = mean_squared_error(y_test, y_pred_gb)
+print("Gradient Boosting Mean Squared Error:", mse_gb)
+
