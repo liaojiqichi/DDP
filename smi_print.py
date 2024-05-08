@@ -1,5 +1,6 @@
 import subprocess
 import time
+import csv
 
 def run_nvidia_smi(interval, duration, script_name):
     try:
