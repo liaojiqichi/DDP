@@ -2,7 +2,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error, mean_absolute_error
 import numpy as np
 import csv
 import joblib
@@ -131,6 +131,8 @@ y_pred = linear_regressor.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 print("Mean Squared Error:", mse)
 
+mae = mean_absolute_error(y_test, y_pred)
+print("Mean Absolute Error:", mae)
 
 joblib.dump(linear_regressor, 'linear_regression_model.pkl')
 
@@ -144,6 +146,9 @@ y_pred_rf = random_forest_regressor.predict(X_test)
 mse_rf = mean_squared_error(y_test, y_pred_rf)
 print("Random Forest Mean Squared Error:", mse_rf)
 
+mae_rf = mean_absolute_error(y_test, y_pred_rf)
+print("Random Forest Mean Absolute Error:", mae_rf)
+
 gradient_boosting_regressor = GradientBoostingRegressor()
 
 gradient_boosting_regressor.fit(X_train, y_train)
@@ -152,4 +157,7 @@ y_pred_gb = gradient_boosting_regressor.predict(X_test)
 
 mse_gb = mean_squared_error(y_test, y_pred_gb)
 print("Gradient Boosting Mean Squared Error:", mse_gb)
+
+mae_gb = mean_absolute_error(y_test, y_pred_gb)
+print("Gradient Boosting Mean Absolute Error:", mae_gb)
 
