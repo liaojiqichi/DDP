@@ -46,7 +46,7 @@ def run_nvidia_smi(interval, duration, script_name, output_file):
 
 if __name__ == "__main__":
     interval = 1  # Interval in seconds
-    duration = 3600  # Duration in seconds
+    duration = 7200  # Duration in seconds
     script_name = "training.py"  # Replace with the actual path to your Python script
     output_file = "sm_info.csv"  # Output CSV file name
 
